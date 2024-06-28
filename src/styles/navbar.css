@@ -1,0 +1,62 @@
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(135deg, #6d5dfc 0%, #b36bff 100%);
+    padding: 10px 15px; /* Adjust padding for top and bottom */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .navbar-brand img {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar-brand img:hover {
+    transform: rotate(360deg);
+  }
+  
+  /* Link Styling */
+  .nav-link {
+    color: #ffffff !important;
+    margin-right: 15px;
+    padding: 10px 15px; /* Adjust padding for left and right */
+    border-radius: 20px; /* Adjust border radius */
+    background: rgba(255, 255, 255, 0.1);
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffe600 !important;
+  }
+  
+  .nav-link.active {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffe600 !important;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .search-and-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-control {
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+  }
+  
+  .user-icons .bi {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .user-icons .bi:hover {
+    color: #ffe600;
+  }
+  
